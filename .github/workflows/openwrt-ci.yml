@@ -41,6 +41,7 @@ jobs:
         run: |
           cd openwrt
           git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+          git clone https://github.com/kiddin9/openwrt-packages package/kiddin9-package
         #  sed -i '$a \src-git opentopd https://github.com/sirpdboy/sirpdboy-package' ./feeds.conf.default
       - name: Update feeds
         run: |
